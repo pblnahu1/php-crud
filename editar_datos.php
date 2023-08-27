@@ -61,6 +61,7 @@ if (isset($_POST['cancelar'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Editar Datos</title>
+    <link rel="icon" href="imagenes/icono-pestañas.png">
     <link rel="stylesheet" href="css/encabezado.css">
     <link rel="stylesheet" href="css/footer.css">
     <!-- bootstrap -->

@@ -44,6 +44,7 @@ if (isset($_POST['enviar-registro'])) {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NTWS Registro</title>
+    <link rel="icon" href="imagenes/icono-pestañas.png">
     <link rel="stylesheet" href="css/styles-registro.css">
     <link rel="stylesheet" href="css/encabezado.css">
     <link rel="stylesheet" href="css/footer.css">

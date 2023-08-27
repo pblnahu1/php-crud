@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Lilita+One&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* body{
+    font-family: century goltic;
+} */
+
+main{
+    padding: 100px;
+    background-color:snow;
+    border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10%;
+    border: 1px solid black;
+    background-color: rgb(232, 232, 252);
+}
+
+.text-h2-form{
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: justify;
+}
+
+.h1-text{
+    font-family: 'Lilita One', cursive;
+}
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icon-login {
+    font-size: 24px;
+    color: #333;
+    margin-right: 10px;
+    transition: all 0.3s ease-in-out;
+}
+
+.social-icon-login:hover {
+    color: #3593ff;
+}
+
+.container-form{
+    margin-right: 100px;
+}
+
+.container-form p{
+    text-align: center;
+}
+
+form{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 30px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color:rgb(194, 209, 223);
+    color: #000;
+}
+
+label{
+    font-size: 1.3em;
+    display: block;
+    margin-bottom: 20px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type="submit"]{
+    /* background-color:#208cff; */
+    background: linear-gradient(to bottom,#4ba2ff, #1165b3);
+    color: #fff;
+    border-radius: 25px;
+    font-size: 1.2em;
+    transition: all 0.5s ease;
+}
+
+input[type="submit"]:hover{
+    background: linear-gradient(to bottom, #6991ff, #4418e4);
+}
+
+/* Mobile */
+@media(max-width:1350px){
+    main{
+        padding: 10% 5%;
+    }
+
+    .container{
+        display: block;
+    }
+
+    .text-h2-form{
+        text-align: center;
+    }
+
+    .social-icons{
+        margin-top: 0;
+        margin-bottom: 15px;
+    }
+
+    .container-form{
+        margin: 5px;
+    }
+}

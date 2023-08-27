@@ -1,0 +1,31 @@
+.container{
+    display: block;
+    text-align: justify;
+}
+
+.parrafos{
+    margin: 3%;
+    padding: 10%;
+    /* border: 1px solid blue; */
+    border-radius: 5px;
+    box-shadow: 1px 0px 22px 0px #b6b6b6;
+    background-color: #f2fafa;
+}
+
+.texto h1{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 35px;
+}
+
+/* Mobile */
+@media(max-width:1350px){
+    .container{
+        margin: 25px 0;
+    }
+
+    .parrafos{
+        margin: 10% 0;
+        padding: 10% 5%;
+    }
+}

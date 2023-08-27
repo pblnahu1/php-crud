@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    margin: 0;
+}
+
+main{
+    background-color:rgb(255, 252, 239);
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+.container
+.row
+.col{
+    margin: 5% 0;
+    padding: 0;
+}
+
+.col{
+    height: 70vh !important;
+    overflow: auto;
+    /* border: 1px solid rgb(255, 255, 255); */
+}
+
+table{
+    border-collapse: collapse;
+}
+
+.div-text{
+    padding: 15px;
+    background-color: yellowgreen;
+}
+
+.welcome-h3{
+    text-align: center;
+    color: rgb(1, 85, 1);
+}
+
+@media(max-width:1350px){
+    /* Para la tabla */
+    .container{
+        
+    }
+}

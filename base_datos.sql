@@ -10,5 +10,5 @@ CREATE TABLE datos_usuarios(
 	email_usuario VARCHAR(50) NOT NULL,
 	clave_usuario VARCHAR(50) NOT NULL,
 	provincia_usuario TEXT NOT NULL,
-	fecha_ingreso VARCHAR(50) NOT NULL
+	fecha_ingreso DATE NOT NULL
 );

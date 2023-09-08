@@ -25,7 +25,7 @@
             <a class="nav-link" href="index.php">Inicio</a>
             <a class="nav-link" href="#">Contactos</a>
             <a class="nav-link" href="proteccion-datos/privacidad.php">Política de Privacidad</a>
-            <a class="nav-link" href="#">Tu Cuenta</a>
+            <a class="nav-link" href="cerrar_sesion.php">Cerrar Sesión</a>
         </nav>
     </header>
     <main>

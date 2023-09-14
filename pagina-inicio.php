@@ -60,16 +60,16 @@
                     <table class="table table-bordered table-collapse">
                         <thead class="table-dark">
                             <tr>
-                                <th>ID</th>
-                                <th>Nombre</th>
-                                <th>Apellido</th>
-                                <th>Edad</th>
-                                <th>Email</th>
-                                <th>Clave</th>
-                                <th>Provincia</th>
-                                <th>Fecha de Registro</th>
-                                <th>Editar</th>
-                                <th>Borrar</th>
+                                <th class="col-1">ID</th>
+                                <th class="col-2">Nombre</th>
+                                <th class="col-1">Apellido</th>
+                                <th class="col-2">Edad</th>
+                                <th class="col-1">Email</th>
+                                <th class="col-2">Clave</th>
+                                <th class="col-1">Provincia</th>
+                                <th class="col-2">Fecha de Registro</th>
+                                <th class="col-1">Editar</th>
+                                <th class="col-2">Borrar</th>
                             </tr>
                         </thead>
                         <tbody>

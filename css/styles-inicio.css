@@ -14,6 +14,7 @@ body{
 
 main{
     background-color:rgb(255, 252, 239);
+    /* height: 37.8vw; */
 }
 
 .container{
@@ -26,13 +27,13 @@ main{
 .container
 .row
 .col{
-    margin: 5% 0;
+    margin: 2% 0 5% 0;
     padding: 0;
 }
 
 .col{
-    height: 70vh !important;
-    overflow: auto;
+    /* height: 70vh !important; */
+    overflow: scroll;
     /* border: 1px solid rgb(255, 255, 255); */
 }
 
@@ -50,9 +51,17 @@ table{
     color: rgb(1, 85, 1);
 }
 
-@media(max-width:1350px){
+@media(max-width:990px){
     /* Para la tabla */
+    main{
+        height: auto;
+    }
+    
     .container{
-        
+        display: block;
+    }
+
+    .row{
+        margin: 0px!important;
     }
 }

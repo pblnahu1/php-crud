@@ -15,9 +15,45 @@ html{
 } */
 
 main{
-    padding: 100px;
+    padding: 35px 100px 100px 100px;
     background-color:snow;
     border-bottom: 1px solid rgb(163, 163, 163);
+}
+
+.div-error-sesion{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 2% 30%;
+    background-color: rgb(252, 201, 201);
+}
+
+.div-boton-cerrar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    padding: 15px;
+    margin: 2% 30%;  
+    background-color: rgb(212, 212, 212);
+    opacity: 1;
+    visibility: visible;
+}
+
+.txt-p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+}
+
+.msg-error-inicio-sesion{
+    color: rgb(207, 54, 54);
+}
+
+.msg-cerrar-sesion{
+
 }
 
 .container{
@@ -103,6 +139,23 @@ input[type="submit"]:hover{
     main{
         padding: 10% 5%;
     }
+    .div-error-sesion, .div-boton-cerrar{
+        margin: 2% 0;
+        flex-direction: column;
+    }
+
+    .txt-p{
+        margin: 20px 0;
+    }
+
+    .div-error-sesion > button, .div-boton-cerrar > button{
+        width: 50%;
+        height: 50px;
+    }
+
+    .div-error-sesion > button > i, .div-boton-cerrar > button > i{
+        font-size: 20px;
+    }
 
     .container{
         display: block;
@@ -117,7 +170,22 @@ input[type="submit"]:hover{
         margin-bottom: 15px;
     }
 
+    .social-icon-login{
+        font-size: 35px;
+        margin: 0 13px;
+    }
+
     .container-form{
         margin: 5px;
+    }
+
+    label{
+        font-size: 18px;
+    }
+
+    .text-h2-form .btn{
+        font-size: 20px;
+        padding: 15px;
+        margin-top: 20px;
     }
 }

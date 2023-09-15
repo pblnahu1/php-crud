@@ -25,7 +25,7 @@
             <a class="nav-link" href="index.php">Inicio</a>
             <a class="nav-link" href="#">Contactos</a>
             <a class="nav-link" href="proteccion-datos/privacidad.php">Política de Privacidad</a>
-            <a class="nav-link" href="cerrar_sesion.php">Cerrar Sesión</a>
+            <a class="nav-link" href="cerrar_sesion.php" onclick="return confirm('¿Desea Cerrar Sesión?')">Cerrar Sesión</a>
         </nav>
     </header>
     <main>
@@ -50,10 +50,10 @@
         }
         ?>
         <br>
-        <br>
         <div class="container">
-            <a href="registro.php" class="btn btn-outline-dark px-5 py-3">Registrar datos</a>
+            <a href="registro.php" class="btn btn-outline-dark px-5 py-3">Registrar nuevo usuario</a>
         </div>
+        <br>
         <div class="container">
             <div class="row">
                 <div class="col">

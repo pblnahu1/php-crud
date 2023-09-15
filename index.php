@@ -83,7 +83,7 @@
                     Explora nuestra selección y encuentra el compañero perfecto que se adapte a tus ambiciones. ¡Tu próximo nivel de
                     rendimiento comienza aquí!</p>
                 <div class="div-btn">
-                    <a href="#" class="link-publicaciones"><button class="btn btn-dark px-5 py-2 btn-lg boton-icon">Ver Publicaciones <i class="fas fa-chevron-right icon"></i></button></a>
+                    <a href="publicaciones.html" class="link-publicaciones"><button class="btn btn-dark px-5 py-2 btn-lg boton-icon">Ver Publicaciones <i class="fas fa-chevron-right icon"></i></button></a>
                 </div>
             </div>
             <div class="item">

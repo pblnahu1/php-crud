@@ -1,3 +1,5 @@
+<?php include("conexion.php"); ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -30,8 +32,6 @@
         <?php
         session_start();
 
-        include("conexion.php");
-
         if (isset($_POST['enviar-login'])) {
             $emailUser = $_POST['email'];
             $claveUser = $_POST['clave'];
@@ -49,16 +49,30 @@
                 exit();
             } else {
         ?>
-                <h3 style="text-align:center; color:red;">Ha ocurrido un error. Email o Contraseña son inválidos.</h3>
-        <?php
+                <div class="div-error-sesion">
+                    <p class="msg-error-inicio-sesion txt-p">Ha ocurrido un error. Email o Contraseña son inválidos.</p>
+                    <button class="btn btn-danger" id="cerrar"><i class="fas fa-times"></i></button>
+                </div>
+            <?php
             }
+        }
+
+        // verifico si existe el mensaje en la variable session y lo muestro
+        if (isset($_SESSION['mensaje'])) { ?>
+            <div class="div-boton-cerrar">
+                <p class="msg-cerrar-sesion txt-p"><?php echo $_SESSION['mensaje']; ?></p>
+                <button class="btn btn-danger" id="cerrar"><i class="fas fa-times"></i></button>
+            </div>
+        <?php
+            // borro la variable de session al actualizar la página
+            unset($_SESSION['mensaje']);
         }
         ?>
         <div class="container">
             <div class="text-h2-form">
                 <h1 class="h1-text">Inicia Sesión para acceder a todo tu contenido!</h1>
                 <hr>
-                <h5>Si no tienes una cuenta <a href="registro.php" class="btn btn-outline-dark">crea una nueva</a></h5>
+                <h5>Si no tienes una cuenta <a href="registro.php" class="btn btn-outline-dark">Crea una nueva</a></h5>
                 <div class="social-icons">
                     <a href="https://www.instagram.com" class="social-icon-login"><i class="fab fa-instagram"></i></a>
                     <a href="https://www.x.com" class="social-icon-login"><i class="fab fa-twitter"></i></a>
@@ -94,6 +108,8 @@
             </div>
         </div>
     </footer>
+
+    <script src="js/cerrar-btn.js"></script>
 </body>
 
 </html>

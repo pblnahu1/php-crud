@@ -87,5 +87,11 @@ input[type="submit"]:hover{
     .texto-form{
         margin: 10%;
     }
+
+    .p-texto .btn{
+        font-size: 20px;
+        padding: 15px 30px;
+        margin-top: 10px;
+    }
 }
 

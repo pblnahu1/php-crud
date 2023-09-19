@@ -22,9 +22,10 @@
         <a class="header-link" href="#">NTWS</a>
         <nav id="nav-bar">
             <a class="nav-link" href="#">Inicio</a>
+            <a class="nav-link" href="publicaciones.html">Productos</a>
             <a class="nav-link" href="#">Contactos</a>
             <a class="nav-link" href="proteccion-datos/privacidad.php">Política de Privacidad</a>
-            <a class="nav-link" href="login.php">Iniciar Sesión</a>
+            <a class="nav-link link-login" href="login.php">Iniciar Sesión</a>
         </nav>
     </header>
 
@@ -37,8 +38,8 @@
                     <p class="mt-lg-5 fs-1 text-uppercase fw-bold">Notebooks de última generación</p>
                     <h1 class="display-1 fw-bolder text-capitalize">Tu socio en productividad</h1>
                 </div>
-                <div class="carousel-caption py-5 mb-5 mt-5">
-                    <button class="btn btn-light px-5 py-3 fs-5 mt-lg-5">Ver</button>
+                <div class="carousel-caption mb-lg-5">
+                    <button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button>
                 </div>
             </div>
             <div class="carousel-item d-item">
@@ -48,8 +49,8 @@
                     <p class="mt-lg-5 fs-1 text-uppercase fw-bold">Explora la creatividad sin limites</p>
                     <h1 class="display-1 fw-bolder text-capitalize">Notebooks de vanguardia para tu inspiración</h1>
                 </div>
-                <div class="carousel-caption py-5 mb-5 mt-5">
-                    <button class="btn btn-light px-5 py-3 fs-5 mt-lg-5">Ver</button>
+                <div class="carousel-caption mb-lg-5">
+                    <button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button>
                 </div>
             </div>
             <div class="carousel-item d-item">
@@ -59,8 +60,8 @@
                     <p class="mt-lg-5 fs-1 text-uppercase fw-bold">Notebooks de alto rendimiento</p>
                     <h1 class="display-1 fw-bolder text-capitalize">¡Eleva tu experiencia!</h1>
                 </div>
-                <div class="carousel-caption py-5 mb-5 mt-5">
-                    <button class="btn btn-light px-5 py-3 fs-5 mt-lg-5">Ver</button>
+                <div class="carousel-caption mb-lg-5">
+                    <button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button>
                 </div>
             </div>
         </div>

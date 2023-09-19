@@ -24,6 +24,7 @@
         <a class="header-link" href="index.php">NTWS</a>
         <nav id="nav-bar">
             <a class="nav-link" href="index.php">Inicio</a>
+            <a class="nav-link" href="publicaciones.html">Productos</a>
             <a class="nav-link" href="#">Contactos</a>
             <a class="nav-link" href="proteccion-datos/privacidad.php">Política de Privacidad</a>
         </nav>

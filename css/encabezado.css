@@ -40,6 +40,11 @@
     color: #ffffff;
 }
 
+#nav-bar .link-login:hover{
+    background-color: rgb(255, 229, 83);
+    color: #000;
+}
+
 /* Mobile */
 @media(max-width: 1350px){
     #header{

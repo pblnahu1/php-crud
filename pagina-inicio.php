@@ -23,6 +23,7 @@
         <a class="header-link" href="index.php">NTWS</a>
         <nav id="nav-bar">
             <a class="nav-link" href="index.php">Inicio</a>
+            <a class="nav-link" href="publicaciones.html">Productos</a>
             <a class="nav-link" href="#">Contactos</a>
             <a class="nav-link" href="proteccion-datos/privacidad.php">Política de Privacidad</a>
             <a class="nav-link" href="cerrar_sesion.php" onclick="return confirm('¿Desea Cerrar Sesión?')">Cerrar Sesión</a>
@@ -38,7 +39,7 @@
             $apellidoUsuario = $_SESSION['apellido_usuario'];
         ?>
             <div class="div-text">
-                <h3 class="welcome-h3">¡Bienvenido/a <?php echo $nombreUsuario . " " . $apellidoUsuario; ?>!</h3>
+                <h3 class="welcome-h3">¡Bienvenid@ <?php echo $nombreUsuario . " " . $apellidoUsuario; ?>!</h3>
             </div>
         <?php
         } else {

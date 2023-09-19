@@ -17,7 +17,7 @@ html{
 
 /* SECCION DEL SLIDER */
 .d-item{
-    height: 99vh;
+    height: 80vh;
 }
 
 .d-img{
@@ -28,8 +28,8 @@ html{
 
 /* SECCION DE BIENVENIDA */
 #sct-welcome{
-    height: 100vh;
-    padding: 10% 0;
+    /* height: 100vh; */
+    padding: 2% 0;
     background-color: #fff8dc;
 }
 

@@ -1,3 +1,8 @@
+::selection{
+    background-color: rgb(99, 103, 117);
+    color: rgb(255, 255, 255);
+}
+
 *{
     box-sizing: border-box;
     margin: 0;
@@ -14,7 +19,6 @@ body{
 
 main{
     background-color:rgb(255, 252, 239);
-    /* height: 37.8vw; */
 }
 
 .container{
@@ -32,13 +36,7 @@ main{
 }
 
 .col{
-    /* height: 70vh !important; */
     overflow: scroll;
-    /* border: 1px solid rgb(255, 255, 255); */
-}
-
-table{
-    border-collapse: collapse;
 }
 
 .div-text{

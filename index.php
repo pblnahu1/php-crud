@@ -39,7 +39,7 @@
                     <h1 class="display-1 fw-bolder text-capitalize">Tu socio en productividad</h1>
                 </div>
                 <div class="carousel-caption mb-lg-5">
-                    <button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button>
+                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button></a>
                 </div>
             </div>
             <div class="carousel-item d-item">
@@ -50,7 +50,7 @@
                     <h1 class="display-1 fw-bolder text-capitalize">Notebooks de vanguardia para tu inspiración</h1>
                 </div>
                 <div class="carousel-caption mb-lg-5">
-                    <button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button>
+                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button></a>
                 </div>
             </div>
             <div class="carousel-item d-item">
@@ -61,7 +61,7 @@
                     <h1 class="display-1 fw-bolder text-capitalize">¡Eleva tu experiencia!</h1>
                 </div>
                 <div class="carousel-caption mb-lg-5">
-                    <button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button>
+                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button></a>
                 </div>
             </div>
         </div>

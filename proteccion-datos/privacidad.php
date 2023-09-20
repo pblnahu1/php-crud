@@ -24,7 +24,7 @@
             <a class="nav-link" href="../index.php">Inicio</a>
             <a class="nav-link" href="../publicaciones.html">Productos</a>
             <a class="nav-link" href="#">Contactos</a>
-            <a class="nav-link" href="../login.php">Iniciar Sesión</a>
+            <a class="nav-link link-login" href="../login.php">Iniciar Sesión</a>
         </nav>
     </header>
     <main>

@@ -38,11 +38,17 @@
 #nav-bar .nav-link:hover{
     background-color: #3d3d3d;
     color: #ffffff;
+    transition: all 0.2s ease-in-out;
 }
 
 #nav-bar .link-login:hover{
-    background-color: rgb(255, 229, 83);
-    color: #000;
+    background-color: rgb(120, 145, 255);
+    color: #fff;
+}
+
+#nav-bar .link-cerrar-sesion:hover{
+    background-color: rgb(250, 57, 57);
+    color: #fff;
 }
 
 /* Mobile */

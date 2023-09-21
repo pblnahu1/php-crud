@@ -17,9 +17,9 @@ main{
 }
 
 .container{
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* flex-direction: row; */
     text-align: center;
 }
 
@@ -43,6 +43,15 @@ main{
     text-align: center;
     color: rgb(1, 85, 1);
 }
+
+.table{
+    margin-bottom: 0px!important;
+}
+
+.table>thead, .table>tbody{
+    vertical-align: middle!important;
+}
+
 
 @media(max-width:990px){
     /* Para la tabla */

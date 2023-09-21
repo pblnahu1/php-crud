@@ -58,7 +58,7 @@
         <div class="container">
             <div class="row">
                 <div class="col">
-                    <table class="table table-bordered table-collapse">
+                    <table class="table table-bordered">
                         <thead class="table-dark">
                             <tr>
                                 <th class="col-1">ID</th>
@@ -68,7 +68,7 @@
                                 <th class="col-1">Email</th>
                                 <th class="col-2">Clave</th>
                                 <th class="col-1">Provincia</th>
-                                <th class="col-2">Fecha de Registro</th>
+                                <th class="col-2">Fecha Registro</th>
                                 <th class="col-1">Editar</th>
                                 <th class="col-2">Borrar</th>
                             </tr>

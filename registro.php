@@ -63,7 +63,6 @@ if (isset($_POST['enviar-registro'])) {
             <a class="nav-link" href="index.php">Inicio</a>
             <a class="nav-link" href="publicaciones.html">Productos</a>
             <a class="nav-link" href="#">Contactos</a>
-            <a class="nav-link" href="proteccion-datos/privacidad.php">Política de Privacidad</a>
         </nav>
     </header>
     <main>
@@ -71,7 +70,7 @@ if (isset($_POST['enviar-registro'])) {
             <h1 class="h1-texto">Crea tu cuenta</h1>
             <p class="p-texto">Para poder publicar, comprar y acceder a todas las ofertas que tenemos, primero tienes que crearte una cuenta.</p>
             <p class="p-texto">Si ya tienes una cuenta <a href="login.php" class="btn btn-outline-dark">Inicia Sesión</a></p>
-            <p class="p-texto-privacidad"><a href="proteccion-datos/privacidad.php">La Protección de Datos y Tu Privacidad: Nuestro Compromiso</a></p>
+            <p class="p-texto-privacidad"><a href="#">La Protección de Datos y Tu Privacidad: Nuestro Compromiso</a></p>
         </div>
         <form action="registro.php" method="post">
             <fieldset>

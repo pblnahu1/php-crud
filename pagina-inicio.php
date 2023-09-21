@@ -25,13 +25,12 @@
             <a class="nav-link" href="index.php">Inicio</a>
             <a class="nav-link" href="publicaciones.html">Productos</a>
             <a class="nav-link" href="#">Contactos</a>
-            <a class="nav-link" href="proteccion-datos/privacidad.php">Política de Privacidad</a>
             <a class="nav-link link-cerrar-sesion" href="cerrar_sesion.php" onclick="return confirm('¿Desea Cerrar Sesión?')">Cerrar Sesión</a>
         </nav>
     </header>
     <main>
         <?php
-        ob_start();
+        // ob_start();
         session_start();
 
         if (isset($_SESSION['nombre_usuario']) && isset($_SESSION['apellido_usuario'])) {
@@ -77,6 +76,7 @@
                             <?php
                             $query = "SELECT * FROM datos_usuarios";
                             $resultado = mysqli_query($conexion, $query);
+                            // Mientras obtengo las filas de $resultado (con la consulta SQL) como un array
                             while ($row = mysqli_fetch_assoc($resultado)) { ?>
                                 <tr>
                                     <td><?php echo $row['id_usuario']; ?></td>

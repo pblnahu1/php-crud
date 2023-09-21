@@ -24,7 +24,6 @@
             <a class="nav-link" href="#">Inicio</a>
             <a class="nav-link" href="publicaciones.html">Productos</a>
             <a class="nav-link" href="#">Contactos</a>
-            <a class="nav-link" href="proteccion-datos/privacidad.php">Política de Privacidad</a>
             <a class="nav-link link-login" href="login.php">Iniciar Sesión</a>
         </nav>
     </header>

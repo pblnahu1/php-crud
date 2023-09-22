@@ -19,13 +19,25 @@ img {
     min-height: 300px;
 }
 
-.div-slider-catalogo>img {
-    max-width: 100%;
-    height: auto;
+#sct-slider-catalogo {
+    background-image: linear-gradient(0deg,
+            rgb(0, 0, 0, 0.2),
+            rgb(0, 0, 0, 0.2)), url('../imagenes/img-publicaciones-slider.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5% 0px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
 }
 
-.div-slider-catalogo .imagen-mobile-slider {
-    display: none;
+#sct-slider-catalogo>h1 {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #sct-articulos {
@@ -117,10 +129,13 @@ img {
 }
 
 #sct-articulos .item-art .p-icon-heart>i:hover {
-    color: #ff0000;
     transform: scale(1.1);
     cursor: pointer;
     content: "Agregar a tus favoritos";
+}
+
+.p-icon-heart.selected {
+    color: #ff0000;
 }
 
 #sct-articulos .item-art h3 {
@@ -146,17 +161,12 @@ img {
 
 /* Mobile */
 @media(max-width: 1350px) {
-    .div-slider-catalogo .imagen-mobile-slider {
-        display: block;
+    #sct-slider-catalogo {
+        padding: 20% 0px;
     }
 
-    .div-slider-catalogo .imagen-desktop-slider {
-        display: none;
-    }
-
-    .div-slider-catalogo>img {
-        max-width: 100%;
-        min-height: 200px;
+    #sct-slider-catalogo>h1 {
+        font-size: 25px;
     }
 
     #sct-articulos .div-catalogo {
@@ -179,6 +189,32 @@ img {
     }
 
     #sct-articulos li>img:hover {
+        transform: none;
+    }
+
+    #sct-articulos .item-art {
+        transition: none;
+        padding: 35px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #sct-articulos .item-art:hover {
+        transform: none;
+    }
+
+    #sct-articulos .item-art>img {
+        max-width: 180px;
+        min-height: 180px;
+    }
+
+    #sct-articulos .item-art .p-icon-heart>i {
+        transition: none;
+    }
+
+    #sct-articulos .item-art .p-icon-heart>i:hover {
         transform: none;
     }
 }

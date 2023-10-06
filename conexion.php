@@ -1,6 +1,6 @@
 <?php
 
-//$conexion = new mysqli("localhost", "root", "", "bdd_ntws"); 
+//$conexion = new mysqli("localhost", "root", "", "database_project_ntws"); 
 
 /*if($conexion){
     ?>
@@ -17,13 +17,13 @@
 <?php
 
 try {
-    $conexion = new mysqli("localhost", "root", "", "bdd_ntws");
+    $conexion = new mysqli("localhost", "root", "", "database_project_ntws");
     if ($conexion->connect_error) {
         throw new Exception("Error de conexion a la Base de Datos " . $conexion->connect_error);
     }
-    ?>
-        <h6 style="text-align:center; color: blue;">Conectado a la Base de Datos</h6>
-    <?php
+?>
+    <!-- <h6 style="text-align:center; color: blue;">Conectado a la Base de Datos</h6> -->
+<?php
 } catch (Exception $e) {
 ?>
     <h6 style="text-align:center; color: red;"><?php echo $e->getMessage(); ?></h6>

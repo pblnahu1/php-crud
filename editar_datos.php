@@ -123,37 +123,37 @@ if (isset($_POST['cancelar'])) {
                         <!-- Provincia -->
                         <div class="form-group py-3">
                             <label for="lbl-provincia" class="form-label">Provincia</label>
-                            <select id="lbl-provincia" class="form-select" name="provincia" value="<?php echo $provincia; ?>">
+                            <select id="lbl-provincia" class="form-select" name="provincia">
                                 <option value="">Selecciona una</option>
-                                <option value="Buenos Aires">Buenos Aires</option>
-                                <option value="Catamarca">Catamarca</option>
-                                <option value="Chaco">Chaco</option>
-                                <option value="Chubut">Chubut</option>
-                                <option value="Córdoba">Córdoba</option>
-                                <option value="Corrientes">Corrientes</option>
-                                <option value="Entre Ríos">Entre Ríos</option>
-                                <option value="Formosa">Formosa</option>
-                                <option value="Jujuy">Jujuy</option>
-                                <option value="La Pampa">La Pampa</option>
-                                <option value="La Rioja">La Rioja</option>
-                                <option value="Mendoza">Mendoza</option>
-                                <option value="Misiones">Misiones</option>
-                                <option value="Neuquén">Neuquén</option>
-                                <option value="Río Negro">Río Negro</option>
-                                <option value="Salta">Salta</option>
-                                <option value="San Juan">San Juan</option>
-                                <option value="San Luis">San Luis</option>
-                                <option value="Santa Cruz">Santa Cruz</option>
-                                <option value="Santa Fe">Santa Fe</option>
-                                <option value="Santiago del Estero">Santiago del Estero</option>
-                                <option value="Tierra del Fuego">Tierra del Fuego</option>
-                                <option value="Tucumán">Tucumán</option>
+                                <option value="Buenos Aires" <?php if($provincia == 'Buenos Aires') echo 'selected'; ?>>Buenos Aires</option>
+                                <option value="Catamarca" <?php if($provincia == 'Catamarca') echo 'selected'; ?>>Catamarca</option>
+                                <option value="Chaco" <?php if($provincia == 'Chaco') echo 'selected'; ?>>Chaco</option>
+                                <option value="Chubut" <?php if($provincia == 'Chubut') echo 'selected'; ?>>Chubut</option>
+                                <option value="Córdoba" <?php if($provincia == 'Córdoba') echo 'selected'; ?>>Córdoba</option>
+                                <option value="Corrientes" <?php if($provincia == 'Corrientes') echo 'selected'; ?>>Corrientes</option>
+                                <option value="Entre Ríos" <?php if($provincia == 'Entre Ríos') echo 'selected'; ?>>Entre Ríos</option>
+                                <option value="Formosa" <?php if($provincia == 'Formosa') echo 'selected'; ?>>Formosa</option>
+                                <option value="Jujuy" <?php if($provincia == 'Jujuy') echo 'selected'; ?>>Jujuy</option>
+                                <option value="La Pampa" <?php if($provincia == 'La Pampa') echo 'selected'; ?>>La Pampa</option>
+                                <option value="La Rioja" <?php if($provincia == 'La Rioja') echo 'selected'; ?>>La Rioja</option>
+                                <option value="Mendoza" <?php if($provincia == 'Mendoza') echo 'selected'; ?>>Mendoza</option>
+                                <option value="Misiones" <?php if($provincia == 'Misiones') echo 'selected'; ?>>Misiones</option>
+                                <option value="Neuquén" <?php if($provincia == 'Neuquén') echo 'selected'; ?>>Neuquén</option>
+                                <option value="Río Negro" <?php if($provincia == 'Río Negro') echo 'selected'; ?>>Río Negro</option>
+                                <option value="Salta" <?php if($provincia == 'Salta') echo 'selected'; ?>>Salta</option>
+                                <option value="San Juan" <?php if($provincia == 'San Juan') echo 'selected'; ?>>San Juan</option>
+                                <option value="San Luis" <?php if($provincia == 'San Luis') echo 'selected'; ?>>San Luis</option>
+                                <option value="Santa Cruz" <?php if($provincia == 'Santa Cruz') echo 'selected'; ?>>Santa Cruz</option>
+                                <option value="Santa Fe" <?php if($provincia == 'Santa Fe') echo 'selected'; ?>>Santa Fe</option>
+                                <option value="Santiago del Estero" <?php if($provincia == 'Santiago del Estero') echo 'selected'; ?>>Santiago del Estero</option>
+                                <option value="Tierra del Fuego" <?php if($provincia == 'Tierra del Fuego') echo 'selected'; ?>>Tierra del Fuego</option>
+                                <option value="Tucumán" <?php if($provincia == 'Tucumán') echo 'selected'; ?>>Tucumán</option>
                             </select>
                         </div>
                         <br>
-                        <button class="btn container btn-primary fs-5" name="actualizar">Actualizar</button>
+                        <button class="btn container btn-primary fs-5" name="actualizar" onclick="return confirm('¿Estás de acuerdo en Actualizar tus datos')">Actualizar</button>
                         <br><br>
-                        <button class="btn container btn-danger fs-5" name="cancelar">Cancelar</button>
+                        <button class="btn container btn-danger fs-5" name="cancelar" onclick="return confirm('¿Estás de acuerdo en Cancelar la edición de tu Perfil?')">Cancelar</button>
                     </form>
                 </div>
             </div>

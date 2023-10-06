@@ -32,35 +32,35 @@
         <div class="carousel-inner">
             <div class="carousel-item active d-item">
                 <img src="imagenes/img1.jpg" class="d-block w-100 d-img" alt="imagen1">
-                <div class="carousel-caption top-0 mt-5">
+                <div class="carousel-caption top-0 mt-4">
                     <br><br><br>
                     <p class="mt-lg-5 fs-1 text-uppercase fw-bold">Notebooks de última generación</p>
                     <h1 class="display-1 fw-bolder text-capitalize">Tu socio en productividad</h1>
                 </div>
                 <div class="carousel-caption mb-lg-5">
-                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button></a>
+                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5">Ver</button></a>
                 </div>
             </div>
             <div class="carousel-item d-item">
                 <img src="imagenes/img2.jpg" class="d-block w-100 d-img" alt="imagen2">
-                <div class="carousel-caption top-0 mt-5">
+                <div class="carousel-caption top-0 mt-4">
                     <br><br><br>
                     <p class="mt-lg-5 fs-1 text-uppercase fw-bold">Explora la creatividad sin limites</p>
                     <h1 class="display-1 fw-bolder text-capitalize">Notebooks de vanguardia para tu inspiración</h1>
                 </div>
                 <div class="carousel-caption mb-lg-5">
-                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button></a>
+                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5">Ver</button></a>
                 </div>
             </div>
             <div class="carousel-item d-item">
                 <img src="imagenes/img3.jpg" class="d-block w-100 d-img" alt="imagen3">
-                <div class="carousel-caption top-0 mt-5">
+                <div class="carousel-caption top-0 mt-4">
                     <br><br><br>
                     <p class="mt-lg-5 fs-1 text-uppercase fw-bold">Notebooks de alto rendimiento</p>
                     <h1 class="display-1 fw-bolder text-capitalize">¡Eleva tu experiencia!</h1>
                 </div>
                 <div class="carousel-caption mb-lg-5">
-                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5 mb-lg-5">Ver</button></a>
+                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5">Ver</button></a>
                 </div>
             </div>
         </div>

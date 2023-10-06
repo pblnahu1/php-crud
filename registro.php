@@ -1,6 +1,8 @@
 <?php
 session_start();
 include("conexion.php");
+date_default_timezone_set('America/Argentina/Buenos_Aires'); // Para establecer la hora de Argentina
+
 if (isset($_POST['enviar-registro'])) {
     if (
         strlen($_POST['nombre']) >= 1 &&
@@ -17,7 +19,7 @@ if (isset($_POST['enviar-registro'])) {
         $emailUsuario = trim($_POST['email']);
         $claveUsuario = trim($_POST['clave']);
         $provinciaUsuario = trim($_POST['provincia']);
-        $fechaIngreso = date("Y/m/d");
+        $fechaIngreso = date("d/m/Y");
 
         $consulta = "INSERT INTO datos_usuarios(nombre_usuario, apellido_usuario, edad_usuario, email_usuario, clave_usuario, provincia_usuario, fecha_ingreso) VALUES('$nombreUsuario', '$apellidoUsuario', '$edadUsuario', '$emailUsuario', '$claveUsuario', '$provinciaUsuario', '$fechaIngreso')";
 
@@ -26,7 +28,7 @@ if (isset($_POST['enviar-registro'])) {
         if ($resultado) {
             $_SESSION['nombre_usuario'] = $nombreUsuario;
             $_SESSION['apellido_usuario'] = $apellidoUsuario;
-            header('Location: pagina-inicio.php');
+            header('Location: login.php');
             exit();
         } else {
 ?>

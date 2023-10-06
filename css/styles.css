@@ -26,6 +26,11 @@ html{
     filter: brightness(0.5);
 }
 
+/* .carousel-caption > a > button {
+    margin-bottom: 1rem !important;
+    margin-top: 3rem !important;
+} */
+
 /* SECCION DE BIENVENIDA */
 #sct-welcome{
     /* height: 100vh; */

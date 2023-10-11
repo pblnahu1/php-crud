@@ -45,11 +45,11 @@ if (isset($_POST['enviar-registro'])) {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NTWS Registro</title>
-    <link rel="icon" href="imagenes/icono-pestañas.png">
-    <link rel="stylesheet" href="css/styles-registro.css">
-    <link rel="stylesheet" href="css/encabezado.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <title>NTI Registro</title>
+    <link rel="icon" href="assets/img/icono-pestañas.png">
+    <link rel="stylesheet" href="assets/css/styles-registro.css">
+    <link rel="stylesheet" href="assets/css/encabezado.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- iconos fontawesome -->
@@ -60,11 +60,9 @@ if (isset($_POST['enviar-registro'])) {
 
 <body>
     <header id="header">
-        <a class="header-link" href="index.php">NTWS</a>
+        <a class="header-link" href="index.php">NTI</a>
         <nav id="nav-bar">
             <a class="nav-link" href="index.php">Inicio</a>
-            <a class="nav-link" href="publicaciones.html">Productos</a>
-            <a class="nav-link" href="#">Contactos</a>
         </nav>
     </header>
     <main>

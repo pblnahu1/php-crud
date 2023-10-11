@@ -1,9 +1,0 @@
-# Configuración de reglas de redirección o reescritura de URL en servidores Apache
-
-# Activar la reescritura de URL
-RewriteEngine On 
-
-# Redirigir todas las solicitudes a index.php
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ index.php [L]

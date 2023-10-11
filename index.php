@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NTWS Principal</title>
-    <link rel="icon" href="imagenes/icono-pestañas.png">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="css/encabezado.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <title>NTI Principal</title>
+    <link rel="icon" href="assets/img/icono-pestañas.png">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="stylesheet" href="assets/css/encabezado.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- iconos fontawesome -->
@@ -19,11 +19,10 @@
 
 <body>
     <header id="header">
-        <a class="header-link" href="#">NTWS</a>
+        <a class="header-link" href="#"><img src="assets/img/icono-nti-ppr2.png" alt="img-icono-header" class="img-icono-header"></a>
+        <!-- <a class="header-link" href="#">NTI</a> -->
         <nav id="nav-bar">
             <a class="nav-link" href="#">Inicio</a>
-            <a class="nav-link" href="publicaciones.html">Productos</a>
-            <a class="nav-link" href="#">Contactos</a>
             <a class="nav-link link-login" href="login.php">Iniciar Sesión</a>
         </nav>
     </header>
@@ -31,36 +30,36 @@
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
         <div class="carousel-inner">
             <div class="carousel-item active d-item">
-                <img src="imagenes/img1.jpg" class="d-block w-100 d-img" alt="imagen1">
-                <div class="carousel-caption top-0 mt-4">
-                    <br><br><br>
-                    <p class="mt-lg-5 fs-1 text-uppercase fw-bold">Notebooks de última generación</p>
-                    <h1 class="display-1 fw-bolder text-capitalize">Tu socio en productividad</h1>
+                <img src="assets/img/img1.jpg" class="d-block w-100 d-img" alt="imagen1">
+                <div class="carousel-caption top-0 mt-4 mb-4">
+                    <h5 class="mt-lg-5  text-uppercase fw-bold">Notebooks de última generación</h5>
+                    <br>
+                    <h1 class="fw-bolder text-capitalize">Tu socio en productividad</h1>
                 </div>
-                <div class="carousel-caption mb-lg-5">
-                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5">Ver</button></a>
-                </div>
-            </div>
-            <div class="carousel-item d-item">
-                <img src="imagenes/img2.jpg" class="d-block w-100 d-img" alt="imagen2">
-                <div class="carousel-caption top-0 mt-4">
-                    <br><br><br>
-                    <p class="mt-lg-5 fs-1 text-uppercase fw-bold">Explora la creatividad sin limites</p>
-                    <h1 class="display-1 fw-bolder text-capitalize">Notebooks de vanguardia para tu inspiración</h1>
-                </div>
-                <div class="carousel-caption mb-lg-5">
-                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5">Ver</button></a>
+                <div class="carousel-caption mt-1">
+                    <a href=""><button class="btn btn-light px-5 py-3 fs-5">Ver</button></a>
                 </div>
             </div>
             <div class="carousel-item d-item">
-                <img src="imagenes/img3.jpg" class="d-block w-100 d-img" alt="imagen3">
-                <div class="carousel-caption top-0 mt-4">
-                    <br><br><br>
-                    <p class="mt-lg-5 fs-1 text-uppercase fw-bold">Notebooks de alto rendimiento</p>
-                    <h1 class="display-1 fw-bolder text-capitalize">¡Eleva tu experiencia!</h1>
+                <img src="assets/img/img2.jpg" class="d-block w-100 d-img" alt="imagen2">
+                <div class="carousel-caption top-0 mt-4 mb-4">
+                    <h5 class="mt-lg-5  text-uppercase fw-bold">Explora la creatividad sin limites</h5>
+                    <br>
+                    <h1 class="fw-bolder text-capitalize">Notebooks de vanguardia para tu inspiración</h1>
                 </div>
-                <div class="carousel-caption mb-lg-5">
-                    <a href="publicaciones.html"><button class="btn btn-light px-5 py-3 fs-5">Ver</button></a>
+                <div class="carousel-caption mt-1">
+                    <a href=""><button class="btn btn-light px-5 py-3 fs-5">Ver</button></a>
+                </div>
+            </div>
+            <div class="carousel-item d-item">
+                <img src="assets/img/img3.jpg" class="d-block w-100 d-img" alt="imagen3">
+                <div class="carousel-caption top-0 mt-4 mb-4">
+                    <h5 class="mt-lg-5  text-uppercase fw-bold">Notebooks de alto rendimiento</h5>
+                    <br>
+                    <h1 class="fw-bolder text-capitalize">¡Eleva tu experiencia!</h1>
+                </div>
+                <div class="carousel-caption mt-1">
+                    <a href=""><button class="btn btn-light px-5 py-3 fs-5">Ver</button></a>
                 </div>
             </div>
         </div>
@@ -83,11 +82,11 @@
                     Explora nuestra selección y encuentra el compañero perfecto que se adapte a tus ambiciones. ¡Tu próximo nivel de
                     rendimiento comienza aquí!</p>
                 <div class="div-btn">
-                    <a href="publicaciones.html" class="link-publicaciones"><button class="btn btn-dark px-5 py-2 btn-lg boton-icon">Ver Publicaciones <i class="fas fa-chevron-right icon"></i></button></a>
+                    <a href="" class="link-publicaciones"><button class="btn btn-dark px-5 py-2 btn-lg boton-icon">Ver Publicaciones <i class="fas fa-chevron-right icon"></i></button></a>
                 </div>
             </div>
             <div class="item">
-                <img src="imagenes/img4.jpg" alt="imagen1">
+                <img src="assets/img/img4.jpg" alt="imagen1">
             </div>
         </div>
     </section>

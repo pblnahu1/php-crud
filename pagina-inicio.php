@@ -4,11 +4,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NTWS - Inicio</title>
-    <link rel="icon" href="imagenes/icono-pestañas.png">
-    <link rel="stylesheet" href="css/styles-inicio.css">
-    <link rel="stylesheet" href="css/encabezado.css">
-    <link rel="stylesheet" href="css/footer.css">
+    <title>NTI - Inicio</title>
+    <link rel="icon" href="assets/img/icono-pestañas.png">
+    <link rel="stylesheet" href="assets/css/styles-inicio.css">
+    <link rel="stylesheet" href="assets/css/encabezado.css">
+    <link rel="stylesheet" href="assets/css/footer.css">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
     <!-- iconos fontawesome -->
@@ -20,11 +20,9 @@
 <body>
     <?php include("conexion.php"); ?>
     <header id="header">
-        <a class="header-link" href="index.php">NTWS</a>
+        <a class="header-link" href="index.php">NTI</a>
         <nav id="nav-bar">
             <a class="nav-link" href="index.php">Inicio</a>
-            <a class="nav-link" href="publicaciones.html">Productos</a>
-            <a class="nav-link" href="#">Contactos</a>
             <a class="nav-link link-cerrar-sesion" href="cerrar_sesion.php" onclick="return confirm('¿Desea Cerrar Sesión?')">Cerrar Sesión</a>
         </nav>
     </header>
@@ -123,6 +121,7 @@
             </div>
         </div>
     </footer>
+    <!-- <script src="assets/js/boton-atras-pagina-inicio.js"></script> -->
 </body>
 
 </html>

@@ -12,7 +12,7 @@ Una vez hecho esto, el sistema permite visualizar todos los registros de la base
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [PHP](https://www.php.net/)
-- [SQL]
+- SQL
 - [Bootstrap](https://getbootstrap.com/)
 - [Git](https://git-scm.com/) y [GitHub](https://github.com/)
 

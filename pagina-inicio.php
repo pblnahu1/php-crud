@@ -50,8 +50,8 @@
         <br>
         <div class="container">
             <a href="registro.php" class="btn btn-outline-dark px-5 py-3 botones-tabla">Registrar nuevo usuario</a>
-            <a href="" class="btn px-5 py-3 botones-tabla" style="background-color: #D50F0F; color: #fff;">Descargar PDF</a>
-            <a href="" class="btn px-5 py-3 botones-tabla" style="background-color: #301978; color: #fff;">Descargar Excel</a>
+            <a href="descargar-pdf.php" class="btn px-5 py-3 botones-tabla" style="background-color: #D50F0F; color: #fff;" target="_blank">Descargar PDF</a>
+            <a href="" class="btn px-5 py-3 botones-tabla" style="background-color: #301978; color: #fff;" target="_blank">Descargar Excel</a>
         </div>
         <br>
         <div class="container">

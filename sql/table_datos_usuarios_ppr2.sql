@@ -1,10 +1,10 @@
 
--- Creo la base de datos `database_project_ntws`
-CREATE DATABASE database_project_ntws;
-USE database_project_ntws;
+-- Creo la base de datos `database_project_crud`
+CREATE DATABASE database_project_crud;
+USE database_project_crud;
 
 -- Para borrar la base de datos
-DROP DATABASE database_project_ntws;
+DROP DATABASE database_project_crud;
 
 -- Creo la tabla `datos_usuarios`
 CREATE TABLE datos_usuarios(

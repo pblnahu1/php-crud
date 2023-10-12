@@ -1,6 +1,6 @@
 <?php
 
-//$conexion = new mysqli("localhost", "root", "", "database_project_ntws"); 
+//$conexion = new mysqli("localhost", "root", "", "database_project_crud"); 
 
 /*if($conexion){
     ?>
@@ -17,7 +17,7 @@
 <?php
 
 try {
-    $conexion = new mysqli("localhost", "root", "", "database_project_ntws");
+    $conexion = new mysqli("localhost", "root", "", "database_project_crud");
     if ($conexion->connect_error) {
         throw new Exception("Error de conexion a la Base de Datos " . $conexion->connect_error);
     }

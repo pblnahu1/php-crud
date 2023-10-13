@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>NTI - Inicio</title>
-    <link rel="icon" href="assets/img/icono-pestañas.png">
+    <link rel="icon" href="assets/img/icono.png">
     <link rel="stylesheet" href="assets/css/styles-inicio.css">
     <link rel="stylesheet" href="assets/css/encabezado.css">
     <link rel="stylesheet" href="assets/css/footer.css">
@@ -51,7 +51,7 @@
         <div class="container">
             <a href="registro.php" class="btn btn-outline-dark px-5 py-3 botones-tabla">Registrar nuevo usuario</a>
             <a href="descargar-pdf.php" class="btn px-5 py-3 botones-tabla" style="background-color: #D50F0F; color: #fff;" target="_blank">Descargar PDF</a>
-            <a href="" class="btn px-5 py-3 botones-tabla" style="background-color: #301978; color: #fff;" target="_blank">Descargar Excel</a>
+            <a href="descargar-excel.php" class="btn px-5 py-3 botones-tabla" style="background-color: #301978; color: #fff;" target="_blank">Descargar Excel</a>
         </div>
         <br>
         <div class="container">
@@ -68,8 +68,8 @@
                                 <th class="col-2">Clave</th>
                                 <th class="col-1">Provincia</th>
                                 <th class="col-2">Fecha Registro</th>
-                                <th class="col-1">Editar</th>
-                                <th class="col-2">Borrar</th>
+                                <th class="col-1" style="background-color:rgb(15, 77, 15);">Editar</th>
+                                <th class="col-2" style="background-color: brown; border:1px solid brown;">Borrar</th>
                             </tr>
                         </thead>
                         <tbody>
@@ -87,12 +87,12 @@
                                     <td><?php echo $row['clave_usuario']; ?></td>
                                     <td><?php echo $row['provincia_usuario']; ?></td>
                                     <td><?php echo $row['fecha_ingreso']; ?></td>
-                                    <td>
+                                    <td style="background-color:rgb(137, 218, 137);">
                                         <a href="editar_datos.php?id_usuario=<?php echo $row['id_usuario']; ?>" class="btn btn-default">
                                             <i class="fas fa-solid fa-marker"></i>
                                         </a>
                                     </td>
-                                    <td>
+                                    <td style="background-color: rgb(255, 174, 174);">
                                         <a href="borrar_datos.php?id_usuario=<?php echo $row['id_usuario']; ?>" onclick="return confirm('Realmente desea eliminar?')" class="btn btn-default">
                                             <i class="fas fa-solid fa-trash" style="color:red;"></i>
                                         </a>
@@ -121,6 +121,7 @@
             </div>
         </div>
     </footer>
+    <!-- Al hacer click en el boton atrás del Navegador, vuelve al index.php y no permite volver a la pagina donde se encuentran todos los datos de los usuarios registrados una vez cerrada la sesión. Al actualizar (F5) la página recien mencionada, no permite volver si te olvidaste de cerrar sesión, cosa que no debe pasar (solucionar eso) -->
     <!-- <script src="assets/js/boton-atras-pagina-inicio.js"></script> -->
 </body>
 

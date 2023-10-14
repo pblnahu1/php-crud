@@ -21,7 +21,10 @@
 
 <body>
     <header id="header">
-        <a class="header-link" href="index.php">NTI</a>
+        <!-- <a class="header-link" href="index.php">NTI</a> -->
+        <a href="index.php">
+            <div class="div-img-header"><img src="assets/img/icono.png" alt="icono-header"></div>
+        </a>
         <nav id="nav-bar">
             <a class="nav-link" href="index.php">Inicio</a>
         </nav>

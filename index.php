@@ -19,7 +19,10 @@
 
 <body>
     <header id="header">
-        <a class="header-link" href="#">NTI</a>
+        <!-- <a class="header-link" href="#">NTI</a> -->
+        <a href="index.php">
+            <div class="div-img-header"><img src="assets/img/icono.png" alt="icono-header"></div>
+        </a>
         <nav id="nav-bar">
             <a class="nav-link" href="#">Inicio</a>
             <a class="nav-link link-login" href="login.php">Iniciar Sesión</a>

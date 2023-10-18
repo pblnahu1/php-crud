@@ -21,11 +21,15 @@
     <?php include("conexion.php"); ?>
     <header id="header">
         <!-- <a class="header-link" href="index.php">NTI</a> -->
-        <a href="index.php"><div class="div-img-header"><img src="assets/img/icono.png" alt="icono-header"></div></a>
-        <nav id="nav-bar">
-            <a class="nav-link" href="index.php">Inicio</a>
-            <a class="nav-link link-cerrar-sesion" href="cerrar_sesion.php" onclick="return confirm('¿Desea Cerrar Sesión?')">Cerrar Sesión</a>
-        </nav>
+        <a href="index.php">
+            <div class="div-img-header"><img src="assets/img/icono.png" alt="icono-header"></div>
+        </a>
+        <button class="abrir-menu" id="abrir"><i class="fa fa-bars"></i></button>
+        <ul id="nav" class="nav-bar">
+            <button class="cerrar-menu" id="cerrar"><i class="fa fa-window-close"></i></button>
+            <li><a class="nav-link" href="index.php">Inicio</a></li>
+            <li><a class="nav-link link-cerrar-sesion" href="cerrar_sesion.php" onclick="return confirm('¿Desea Cerrar Sesión?')">Cerrar Sesión</a></li>
+        </ul>
     </header>
     <main>
         <?php
@@ -124,6 +128,7 @@
     </footer>
     <!-- Al hacer click en el boton atrás del Navegador, vuelve al index.php y no permite volver a la pagina donde se encuentran todos los datos de los usuarios registrados una vez cerrada la sesión. Al actualizar (F5) la página recien mencionada, no permite volver si te olvidaste de cerrar sesión, cosa que no debe pasar (solucionar eso) -->
     <!-- <script src="assets/js/boton-atras-pagina-inicio.js"></script> -->
+    <script src="assets/js/menu-nav.js"></script>
 </body>
 
 </html>

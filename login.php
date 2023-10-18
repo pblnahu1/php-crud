@@ -21,13 +21,14 @@
 
 <body>
     <header id="header">
-        <!-- <a class="header-link" href="index.php">NTI</a> -->
         <a href="index.php">
             <div class="div-img-header"><img src="assets/img/icono.png" alt="icono-header"></div>
         </a>
-        <nav id="nav-bar">
-            <a class="nav-link" href="index.php">Inicio</a>
-        </nav>
+        <button class="abrir-menu" id="abrir"><i class="fa fa-bars"></i></button>
+        <ul id="nav" class="nav-bar">
+            <button class="cerrar-menu" id="cerrar"><i class="fa fa-window-close"></i></button>
+            <li><a class="nav-link" href="index.php">Inicio</a></li>
+        </ul>
     </header>
     <main>
         <?php
@@ -52,7 +53,7 @@
         ?>
                 <div class="div-error-sesion">
                     <p class="msg-error-inicio-sesion txt-p">Ha ocurrido un error. Email o Contraseña son inválidos.</p>
-                    <button class="btn btn-danger" id="cerrar"><i class="fas fa-times"></i></button>
+                    <button class="btn btn-danger" id="cerrar-ventana"><i class="fas fa-times"></i></button>
                 </div>
             <?php
             }
@@ -62,7 +63,7 @@
         if (isset($_SESSION['mensaje'])) { ?>
             <div class="div-boton-cerrar">
                 <p class="msg-cerrar-sesion txt-p"><?php echo $_SESSION['mensaje']; ?></p>
-                <button class="btn btn-danger" id="cerrar"><i class="fas fa-times"></i></button>
+                <button class="btn btn-danger" id="cerrar-ventana"><i class="fas fa-times"></i></button>
             </div>
         <?php
             // borro la variable de session al actualizar la página
@@ -109,8 +110,9 @@
             </div>
         </div>
     </footer>
-
+    <script src="assets/js/menu-nav.js"></script>
     <script src="assets/js/cerrar-btn.js"></script>
+    
 </body>
 
 </html>

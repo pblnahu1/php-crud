@@ -64,9 +64,11 @@ if (isset($_POST['enviar-registro'])) {
         <a href="index.php">
             <div class="div-img-header"><img src="assets/img/icono.png" alt="icono-header"></div>
         </a>
-        <nav id="nav-bar">
-            <a class="nav-link" href="index.php">Inicio</a>
-        </nav>
+        <button class="abrir-menu" id="abrir"><i class="fa fa-bars"></i></button>
+        <ul id="nav" class="nav-bar">
+            <button class="cerrar-menu" id="cerrar"><i class="fa fa-window-close"></i></button>
+            <li><a class="nav-link" href="index.php">Inicio</a></li>
+        </ul>
     </header>
     <main>
         <div class="texto-form">
@@ -134,6 +136,8 @@ if (isset($_POST['enviar-registro'])) {
             </div>
         </div>
     </footer>
+
+    <script src="assets/js/menu-nav.js"></script>
 </body>
 
 </html>

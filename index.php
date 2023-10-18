@@ -19,14 +19,15 @@
 
 <body>
     <header id="header">
-        <!-- <a class="header-link" href="#">NTI</a> -->
         <a href="index.php">
             <div class="div-img-header"><img src="assets/img/icono.png" alt="icono-header"></div>
         </a>
-        <nav id="nav-bar">
-            <a class="nav-link" href="#">Inicio</a>
-            <a class="nav-link link-login" href="login.php">Iniciar Sesión</a>
-        </nav>
+        <button class="abrir-menu" id="abrir"><i class="fa fa-bars"></i></button>
+        <ul id="nav" class="nav-bar">
+            <button class="cerrar-menu" id="cerrar"><i class="fa fa-window-close"></i></button>
+            <li><a class="nav-link" href="#">Inicio</a></li>
+            <li><a class="nav-link link-login" href="login.php">Iniciar Sesión</a></li>
+        </ul>
     </header>
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade">
@@ -124,6 +125,7 @@
         </div>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="assets/js/menu-nav.js"></script>
 </body>
 
 </html>

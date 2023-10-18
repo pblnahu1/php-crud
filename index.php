@@ -19,7 +19,7 @@
 
 <body>
     <header id="header">
-        <a href="index.php">
+        <a href="index.php" class="a-img-header">
             <div class="div-img-header"><img src="assets/img/icono.png" alt="icono-header"></div>
         </a>
         <button class="abrir-menu" id="abrir"><i class="fa fa-bars"></i></button>

@@ -12,8 +12,14 @@
 
 .div-img-header img{
     margin-left: 100px;
-    max-width: 100px;
-    min-height: 100px;
+    max-width: 70px;
+    min-height: 70px;
+}
+
+.a-img-header{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .nav-bar{
@@ -35,7 +41,7 @@
 .nav-bar .nav-link{
     text-decoration: none;  
     font-size: 20px;
-    padding: 35px 35px;
+    padding: 22px 35px;
     transition: none;
 }
 

@@ -20,7 +20,6 @@
 <body>
     <?php include("conexion.php"); ?>
     <header id="header">
-        <!-- <a class="header-link" href="index.php">NTI</a> -->
         <a href="index.php">
             <div class="div-img-header"><img src="assets/img/icono.png" alt="icono-header"></div>
         </a>

@@ -1,4 +1,6 @@
 
+# PROYECTO CRUD DE PRÁCTICAS PROFESIONALES 2
+
 -- Creo la base de datos `database_project_crud`
 CREATE DATABASE database_project_crud;
 USE database_project_crud;

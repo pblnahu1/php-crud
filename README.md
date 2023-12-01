@@ -4,7 +4,7 @@
 ## Introducción
 
 Este proyecto se trata de un CRUD que permite registrar usuarios e iniciar sesión si existen en la base de datos.
-Una vez hecho esto, el sistema permite visualizar todos los registros de la base de datos permitiendo así también, modificar o eliminar uno o más registros.
+Una vez hecho esto, el sistema permite visualizar todos los registros de la base de datos permitiendo modificar o eliminar uno o más registros y filtrar por Fecha de Ingreso los usuarios registrados.
 
 ## Tecnologias utilizadas
 
@@ -12,8 +12,9 @@ Una vez hecho esto, el sistema permite visualizar todos los registros de la base
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 - [PHP](https://www.php.net/)
-- SQL
+- [SQL]
 - [Bootstrap](https://getbootstrap.com/)
+- [Fontawesome](https://fontawesome.com/)
 - [Git](https://git-scm.com/) y [GitHub](https://github.com/)
 
 ## Descargas

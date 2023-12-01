@@ -19,7 +19,7 @@ if (isset($_POST['enviar-registro'])) {
         $emailUsuario = trim($_POST['email']);
         $claveUsuario = trim($_POST['clave']);
         $provinciaUsuario = trim($_POST['provincia']);
-        $fechaIngreso = date("d/m/Y");
+        $fechaIngreso = date("Y-m-d");
 
         $consulta = "INSERT INTO datos_usuarios(nombre_usuario, apellido_usuario, edad_usuario, email_usuario, clave_usuario, provincia_usuario, fecha_ingreso) VALUES('$nombreUsuario', '$apellidoUsuario', '$edadUsuario', '$emailUsuario', '$claveUsuario', '$provinciaUsuario', '$fechaIngreso')";
 

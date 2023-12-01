@@ -70,8 +70,12 @@ $pdf->Cell(40, 6, 'FECHA REGISTRO',1, 1, 'C', 1);
 
 $pdf->SetFont('helvetica', '', 10);
 
+
+$fechaInit = date("Y-m-d", strtotime($_POST['fecha_ingreso']));
+$fechaFin  = date("Y-m-d", strtotime($_POST['fechaFin']));
+
 // CONSULTA SQL PARA MOSTRAR DATOS
-$sql = ("SELECT * FROM datos_usuarios");
+$sql = ("SELECT * FROM datos_usuarios WHERE (fecha_ingreso>='$fechaInit' AND fecha_ingreso<='$fechaFin') ORDER BY fecha_ingreso ASC");
 $res = mysqli_query($conexion, $sql);
 while($row = mysqli_fetch_array($res)){
     $pdf->Cell(10, 6, ($row['id_usuario']), 1, 0, 'C');

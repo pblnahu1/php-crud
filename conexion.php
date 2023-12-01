@@ -22,11 +22,11 @@ try {
         throw new Exception("Error de conexion a la Base de Datos " . $conexion->connect_error);
     }
 ?>
-    <!-- <h6 style="text-align:center; color: blue;">Conectado a la Base de Datos</h6> -->
+    <!-- <h5 style="text-align:center; color: blue;">¡Conectado a la Base de Datos!</h5> -->
 <?php
 } catch (Exception $e) {
 ?>
-    <h6 style="text-align:center; color: red;"><?php echo $e->getMessage(); ?></h6>
+    <h5 style="text-align:center; color: red;">ERROR DE CONEXIÓN A LA BASE DE DATOS:<?php echo " " . $e->getMessage(); ?></h5>
 <?php
 }
 

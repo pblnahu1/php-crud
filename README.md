@@ -1,6 +1,10 @@
 
 # README - Proyecto CRUD Práctica Profesional 2 - Analista de Sistemas
 
+<div align="center">
+  <img src="assets/img/captura-pagina.png" width="200" height="200">
+</div>
+
 ## Introducción
 
 Este proyecto se trata de un CRUD que permite registrar usuarios e iniciar sesión si existen en la base de datos.

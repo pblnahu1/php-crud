@@ -2,7 +2,7 @@
 # README - Proyecto CRUD Práctica Profesional 2 - Analista de Sistemas
 
 <div align="center">
-  <img src="assets/img/captura-pagina.png" width="200" height="200">
+  <img src="assets/img/captura-pagina.png" width="500" height="250">
 </div>
 
 ## Introducción

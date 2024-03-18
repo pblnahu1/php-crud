@@ -5,7 +5,9 @@
   <a href="https://crud-as-final.000webhostapp.com/" target="_blank"><img src="assets/img/captura-pagina.png" width="500" height="250"></a>
 </div>
 
-Link de la página: [VER](https://crud-as-final.000webhostapp.com/)
+<div align="center">
+  Link de la página: [VER](https://crud-as-final.000webhostapp.com/)
+</div>
 
 ## Introducción
 

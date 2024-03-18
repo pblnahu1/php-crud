@@ -5,6 +5,8 @@
   <a href="https://crud-as-final.000webhostapp.com/" target="_blank"><img src="assets/img/captura-pagina.png" width="500" height="250"></a>
 </div>
 
+Link de la página: [VER](https://crud-as-final.000webhostapp.com/)
+
 ## Introducción
 
 Este proyecto se trata de un CRUD que permite registrar usuarios e iniciar sesión si existen en la base de datos.
@@ -34,11 +36,8 @@ Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 3. Abre el proyecto en tu editor de código.
 4. Ejecuta la aplicación localmente.
 
-## Acerca del Autor
+## Acerca de
 
 Desarrollado por [Pablo Torrez](https://github.com/pblnahu1) 
-
-Link de la página: [VER PÁGINA WEB](https://crud-as-final.000webhostapp.com/)
-
 LinkedIn: [Pablo Nahuel Torrez](www.linkedin.com/in/pablo-nahuel-torrez-33a80324b)
 Correo Electrónico: [torrezpablo25@gmail.com](mailto:torrezpablo25@gmail.com)

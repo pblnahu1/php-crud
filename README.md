@@ -41,5 +41,7 @@ Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 ## Acerca de
 
 Desarrollado por [Pablo Torrez](https://github.com/pblnahu1) 
+<br>
 LinkedIn: [Pablo Nahuel Torrez](www.linkedin.com/in/pablo-nahuel-torrez-33a80324b)
+<br>
 Correo Electrónico: [torrezpablo25@gmail.com](mailto:torrezpablo25@gmail.com)

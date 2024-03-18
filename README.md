@@ -2,7 +2,7 @@
 # README - Proyecto CRUD Práctica Profesional 2 - Analista de Sistemas
 
 <div align="center">
-  <img src="assets/img/captura-pagina.png" width="500" height="250">
+  <a href="https://crud-as-final.000webhostapp.com/" target="_blank"><img src="assets/img/captura-pagina.png" width="500" height="250"></a>
 </div>
 
 ## Introducción
@@ -37,6 +37,8 @@ Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 ## Acerca del Autor
 
 Desarrollado por [Pablo Torrez](https://github.com/pblnahu1) 
+
+<p color="orange">Link de la página:</p> [VER PÁGINA WEB](https://crud-as-final.000webhostapp.com/)
 
 LinkedIn: [Pablo Nahuel Torrez](www.linkedin.com/in/pablo-nahuel-torrez-33a80324b)
 Correo Electrónico: [torrezpablo25@gmail.com](mailto:torrezpablo25@gmail.com)

@@ -38,7 +38,7 @@ Para ejecutar este proyecto en tu entorno local, sigue los siguientes pasos:
 
 Desarrollado por [Pablo Torrez](https://github.com/pblnahu1) 
 
-<p color="orange">Link de la página:</p> [VER PÁGINA WEB](https://crud-as-final.000webhostapp.com/)
+Link de la página: [VER PÁGINA WEB](https://crud-as-final.000webhostapp.com/)
 
 LinkedIn: [Pablo Nahuel Torrez](www.linkedin.com/in/pablo-nahuel-torrez-33a80324b)
 Correo Electrónico: [torrezpablo25@gmail.com](mailto:torrezpablo25@gmail.com)

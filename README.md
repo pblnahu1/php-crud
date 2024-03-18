@@ -6,7 +6,7 @@
 </div>
 
 <div align="center">
-  Link de la página: [VER](https://crud-as-final.000webhostapp.com/)
+  Link de la página: https://crud-as-final.000webhostapp.com/
 </div>
 
 ## Introducción
